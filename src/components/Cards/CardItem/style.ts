@@ -10,7 +10,7 @@ export const ContainerPostSC = styled("div")`
   border: 2px solid black;
   padding: 30px 60px 30px 60px;
   :hover{
-    background-color:#40E0D0;
+    background-color:#000000;
   }
   img {
     margin-left: 30px;
