@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <FooterContainerSC>
             <FooterContainerLeftSC>
-                <a> Каталог</a>
+                <a href="/catalog" > Каталог</a>
                 <a> О нас</a>
                 <a>Помощь</a>
             </FooterContainerLeftSC>

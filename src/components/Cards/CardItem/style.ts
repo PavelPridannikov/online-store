@@ -8,15 +8,13 @@ export const PostButtonSC = styled(ButtonUI)`
 
 export const ContainerPostSC = styled("div")`
   border: 2px solid black;
+  margin-bottom: 20px;
   padding: 30px 60px 30px 60px;
   :hover{
-    background-color:#000000;
+    background-color:#40E0D0;
   }
   img {
     margin-left: 30px;
-  }
-  &:not(:first-child){
-    margin-left: 10px;
   }
   
 `
@@ -30,6 +28,7 @@ export const PostTitleSC = styled("div")`
   font-size: 20px;
   width: 250px;
   height: 50px;
+  overflow: hidden;
 `
 
 export const PostPriceSC = styled("div")`
