@@ -34,11 +34,6 @@ export const CatalogSC = styled("div")`
   width: 100%;
   margin-top: 80px;
 `
-
-export const CatalogPostsSC = styled("div")`
-  display: flex;
-  justify-content: center;
-`
 export const CatalogTitleSC = styled("div")`
   display: flex;
   justify-content: center;
@@ -50,8 +45,8 @@ export const CatalogTitleSC = styled("div")`
 `
 
 export const ButtonCatalogSC = styled(ButtonUI)`
-  margin-left: 50px;
   margin-top: 20px;
+  font-size: 20px;
   border: 0;
   border-bottom: 2px solid black;
   padding: 0;
@@ -111,8 +106,6 @@ export const InputFormSC= styled(InputPlaceholderUi)`
   }
 `
 
-export const CheckboxFormSC = styled(CheckboxUI)`
-`
 
 export const FormButtonSC = styled(ButtonUI)`
   

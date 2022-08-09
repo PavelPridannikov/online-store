@@ -8,6 +8,7 @@ export const ButtonUI = styled("button")`
   :hover{
     background-color: deeppink;
     color: black;
+    cursor: pointer;
     
   }
 `
