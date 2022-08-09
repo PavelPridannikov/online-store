@@ -17,6 +17,7 @@ export const CheckboxUI = styled("div")`
       position: relative;
       transform: translateY(2px);
       margin-right: 7px;
+      cursor: pointer;
       &:before {
         content: "";
         position: absolute;

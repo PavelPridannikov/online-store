@@ -11,6 +11,11 @@ export const HeaderContainerSC = styled("header")`
   padding-right: 100px;
   align-items: center;
   border-bottom: 3px solid black;
+  svg{
+    :hover{
+      cursor: pointer;
+    }
+  }
 `
 export const HeaderContainerLeftSC = styled("div")`
   width: 142px;
