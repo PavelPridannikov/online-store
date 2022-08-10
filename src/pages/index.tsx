@@ -8,15 +8,15 @@ import {
     FirstSectionSC, FormButtonSC, FormContainerSC, FormContantSC, FormDescriptionSC, InputFormSC
 } from "./UI";
 import {CheckboxUI} from "../UI/CheckboxUI/CheckboxUI";
-import Products from "../components/Cards/Products";
+import Products from "../components/Products/Products";
 import React from "react";
 import {router} from "next/client";
 import {useRouter} from "next/router";
+import Link from "next/link";
 
 
 
 const Home: NextPage = () => {
-    const router = useRouter()
   return (
     <>
       <FirstSectionSC>
@@ -30,10 +30,12 @@ const Home: NextPage = () => {
               <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquam aperiam, aspernatur assumenda debitis dolorem ducimus eaque, earum eligendi enim est ex exercitationem facere iste iure laboriosam libero molestiae nesciunt nihil nobis possimus quas qui quidem rerum similique tempora ullam vel veniam voluptatibus. A amet asperiores atque blanditiis commodi culpa dolores eligendi exercitationem fugiat hic in incidunt inventore ipsa magnam nesciunt officia, possimus quasi quis ratione, suscipit veritatis voluptatibus!
               </p>
-              <ButtonsFirstSectionSC type="button"
-                                     onClick={() => router.push('/catalog')}>
-                  перейти к коллекции
-              </ButtonsFirstSectionSC>
+              <Link href="/catalog">
+                  <ButtonsFirstSectionSC>
+                      перейти к коллекции
+                  </ButtonsFirstSectionSC>
+              </Link>
+
           </FirstSectionLeftSC>
       </FirstSectionSC>
         <AboutUsSC>
@@ -48,10 +50,11 @@ const Home: NextPage = () => {
               <h2>Каталог</h2>
           </CatalogTitleSC>
               <Products limit={3}/>
-          <ButtonCatalogSC type="button"
-                           onClick={() => router.push('/catalog')}>
-              перейти в каталог
-          </ButtonCatalogSC>
+          <Link href="/catalog">
+              <ButtonCatalogSC>
+                  перейти в каталог
+              </ButtonCatalogSC>
+          </Link>
       </CatalogSC>
       <FormContainerSC>
               <h2>

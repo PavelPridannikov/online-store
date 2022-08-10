@@ -1,6 +1,6 @@
 import React from 'react';
 import {NextPage} from "next";
-import Products from "../../components/Cards/Products";
+import Products from "../../components/Products/Products";
 
 const CatalogPage:NextPage = () => {
     return (

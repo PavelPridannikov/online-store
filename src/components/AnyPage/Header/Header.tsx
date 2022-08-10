@@ -19,10 +19,14 @@ const Header = () => {
                 </Link>
             </HeaderContainerLeftSC>
            <HeaderContainerRigthSC>
-               <a href="/catalog">Каталог</a>
+               <Link href="/catalog">
+                   <a>Каталог</a>
+               </Link>
                <a>Избранное</a>
-               <a>Блог</a>
                <a>О нас</a>
+               <Link href="/cart">
+                   <a>Корзина</a>
+               </Link>
            </HeaderContainerRigthSC>
         </HeaderContainerSC>
 
