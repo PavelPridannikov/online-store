@@ -1,16 +1,16 @@
 import {useDispatch} from "react-redux";
 import {bindActionCreators} from "redux";
-import {cartActions} from "../store/cart/cartSlice";
+import {cartActions} from "../store/reducers/cart/cartSlice";
 
 
-const AllActions = {
+const allActions = {
     ...cartActions,
 }
 
 const useActions = () => {
     const dispatch = useDispatch()
 
-    return bindActionCreators(AllActions,dispatch)
+    return bindActionCreators(allActions,dispatch)
 }
 
 export default useActions
