@@ -1,18 +1,20 @@
 import React from 'react';
 import {FooterContainerLeftSC, FooterContainerRightSC, FooterContainerSC} from "./style";
 import VkIcon from '../../../assest/icon/Vk.svg'
+import Link from "next/link";
 
 
 const Footer = () => {
     return (
         <FooterContainerSC>
             <FooterContainerLeftSC>
-                <a href="/catalog" > Каталог</a>
+                <Link href="/catalog" >
+                    <a>Каталог</a>
+                </Link>
                 <a> О нас</a>
                 <a>Помощь</a>
             </FooterContainerLeftSC>
             <FooterContainerRightSC>
-                <base target="_blank"/>
                 <a href="https://vk.com">
                     <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_d_27_28)">
