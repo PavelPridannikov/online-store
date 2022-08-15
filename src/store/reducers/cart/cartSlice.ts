@@ -2,10 +2,6 @@ import {IProduct} from "../product/product.types";
 import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 
 
-// interface IInitialState {
-//     counter: 1;
-// }
-
 const initialState: IProduct[] = []
 
 export const cartSlice = createSlice({

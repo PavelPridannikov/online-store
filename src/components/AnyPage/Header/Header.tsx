@@ -22,7 +22,9 @@ const Header = () => {
                <Link href="/catalog">
                    <a>Каталог</a>
                </Link>
-               <a>Избранное</a>
+               <Link href="/favorites">
+                   <a>Избранное</a>
+               </Link>
                <a>О нас</a>
                <Link href="/cart">
                    <a>Корзина</a>
