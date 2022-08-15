@@ -1,6 +1,6 @@
 import React from 'react';
 import {NextPage} from "next";
-import Favorites from "../../components/favorites/Favorites";
+import Favorites from "../../components/Favorites/Favorites";
 
 const FavoritesPage:NextPage = () => {
     return (
